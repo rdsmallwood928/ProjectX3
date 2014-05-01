@@ -8,9 +8,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title></title>
+    <title>Results</title>
 </head>
 <body>
-    Whoa! It worked!
+<div id="header">
+    <p id="name"><a href="index.jsp">ProjectX</a></p>
+    <a href="createaccount.jsp"><p id="login">Create an account</p></a>
+    <p id="login">|</p>
+    <a href="login.jsp"><p id="login">Login</p></a>
+</div>
+    Whoa! It worked! <br> ${results.professionals}
 </body>
 </html>

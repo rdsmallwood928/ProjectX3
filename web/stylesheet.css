@@ -1,0 +1,33 @@
+#header {
+    z-index: 1;
+    position: fixed;
+    width: 97.5%;
+    margin-top: -20px;
+    height: 60px;
+    background-color: #668284;
+    margin-bottom: 10px;
+}
+
+#body {
+    margin-top: 70px;
+    position: fixed;
+}
+
+#login{
+    float:right;
+    margin-right: 5px;
+    padding-top: 5px;
+    font-size: 12px;
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+}
+
+
+#name {
+    float:left;
+    margin-left: 5px;
+    padding-top: 5px;
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+}
